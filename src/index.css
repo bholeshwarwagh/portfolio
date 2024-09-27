@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+body {
+  margin: 0;
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    position: relative;
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the image covers the full section */
+  background-attachment: fixed; /* Makes the background image fixed for a parallax effect */
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+  
+}
